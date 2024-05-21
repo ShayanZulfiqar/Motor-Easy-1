@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.row {
+    --bs-gutter-x: -0.5rem;
+    width: 99%;
+}
+
+
+.car_services_section {
+    background-image: url(/assets/images/car_service_bg.jpg);
+    width: 100%;
+    height: 65vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.car_services_section .car_service {
+    width: 100%;
+}
+
+.car_services_section .car_service h1 {
+    font-size: 45px;
+    width: 50%;
+    font-weight: bold;
+    position: relative;
+    top: 6rem;
+    left: 4rem;
+    text-transform: uppercase;
+}
+
+.car_services_section .car_service button {
+    text-transform: uppercase;
+    padding: 9px;
+    border: none;
+    text-decoration: none;
+    width: 200px;
+    font-weight: bold;
+    background-color: #44C8E6;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 7rem;
+    left: 3rem;
+}
+
+.car_services_section .car_service button:hover {
+    text-decoration: underline;
+}
+
+/* car_services_second_section0 */
+.car_services_second_section {
+    background-color: white;
+    position: relative;
+    bottom: 3rem;
+    border-top-left-radius: 20px;
+    padding: 20px;
+}
+
+.car_services_second_section .essential h5 {
+    color: #1D1655;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.car_services_second_section .essential p {
+    color: #1D1655;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.car_services_second_section .essential .progress {
+    width: 90%;
+    height: 10px;
+    border-radius: 0px;
+
+}
+
+.car_services_second_section .essential .progress .progress-bar {
+    width: 100%;
+    background-color: #000000;
+}
+
+/* third_portion */
+.third_section_feature p {
+    font-size: 14px;
+    color: #1D1655;
+}
+
+.third_section_feature i {
+    color: #1D1655;
+    font-size: 17px;
+
+}
+
+.third_section_feature .booking_button button {
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #25acca;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.third_section_feature .booking_button button:hover {
+    text-decoration: underline;
+}
+
+/* Fourth Section */
+.third_portion p {
+    font-size: 14px;
+    width: 80%;
+}
+
+/* Fifth Section */
+.fifth_section h4 {
+    color: #1D1655;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.fifth_section p {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.fifth_section button {
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #25acca;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin-top: 10px;
+}
+
+.fifth_section button:hover {
+    text-decoration: underline;
+}
+
+/* sixth_section */
+.sixth_section h3 {
+    color: #1D1655;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.sixth_section p {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.sixth_section i {
+    margin-top: 12px;
+}
+
+.sixth_section i a {
+    color: #2513ae;
+    font-size: 10px;
+    margin-left: 10px;
+    text-transform: lowercase !important;
+}
+
+.sixth_section i a:hover {
+    text-decoration: underline;
+}

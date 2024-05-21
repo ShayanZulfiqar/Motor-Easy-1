@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.row {
+    --bs-gutter-x: -0.5rem;
+    width: 99%;
+}
+
+
+.about_motereasy {
+    background-image: url(/assets/images/about_easy_bg.jpg);
+    width: 100%;
+    height: 65vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about_motereasy .car_service {
+    width: 100%;
+}
+
+.about_motereasy .car_service h1 {
+    font-size: 45px;
+    width: 50%;
+    font-weight: bold;
+    position: relative;
+    top: 6rem;
+    left: 4rem;
+    text-transform: uppercase;
+}
+
+.about_motereasy .car_service button {
+    text-transform: uppercase;
+    padding: 9px;
+    border: none;
+    text-decoration: none;
+    width: 200px;
+    font-weight: bold;
+    background-color: #44C8E6;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 7rem;
+    left: 3rem;
+}
+
+.about_motereasy .car_service button:hover {
+    text-decoration: underline;
+}
+
+
+/* second section */
+
+/* Other service section second */
+.about_motereasy_second_section {
+    background-color: white;
+    position: relative;
+    bottom: 3rem;
+    border-top-left-radius: 20px;
+    padding: 20px;
+}
+
+.about_motereasy_second_section .essential h5 {
+    color: #1D1655;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.about_motereasy_second_section .essential p {
+    color: #1D1655;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.about_motereasy_second_section .essential .progress {
+    width: 90%;
+    height: 10px;
+    border-radius: 0px;
+
+}
+
+.about_motereasy_second_section .essential .progress .progress-bar {
+    width: 100%;
+    background-color: #000000;
+}
+
+.about_motereasy_second_section ul {
+    list-style: disc;
+}
+
+.about_motereasy_second_section p {
+    font-size: 15px;
+}
+
+.about_motereasy_second_section h5 {
+    font-size: 25px;
+    color: #1D1655;
+}
+
+.about_motereasy_second_section ul li {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+/* third section */
+.about_section_contact{
+    margin-left: 14px;
+}
+.about_section_contact h5 {
+    font-size: 25px;
+    color: #1D1655;
+}
+.about_section_contact h6{
+    font-size: 20px;
+    color: #1D1655;
+}
+.about_section_contact p{
+    font-size: 14px;
+
+}
+.about_section_contact button{
+    text-transform: uppercase;
+    padding: 12px;
+    border: none;
+    text-decoration: none;
+    width: 250px;
+    font-weight: 500;
+    background-color: #44C8E6;
+    border-radius: 40px;
+}
+.about_section_contact button:hover{
+    text-decoration: underline;
+}
