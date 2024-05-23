@@ -11,52 +11,80 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/3b161c540c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/3b161c540c.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
 
 <body>
     <!-- ------------Top Header ----------------- -->
-    <header class="top_header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="d-flex  flex-row justify-content-between">
-                        <h6>monday to fryday: 09am to 08pm</h6>
-                        <a href="#">Info@Motoreasy.com.au</a>
-                    </div>
-                    <h6>Brisbane, Canberra, Melbourne, Sydney</h6>
+    <section class="top_header">
+        <div class="main">
+            <div class="row d-flex flex-row  justify-content-center align-items-center">
+                <div class="col-lg-3 company_logo">
+                    <h2 style="color: #04BAE0;">Motor Easy</h2>
                 </div>
-                <div class="col-lg-6 d-flex flex-row  text-end  align-items-center justify-content-end ">
-                    <div class=" d-flex justify-content-end gap-4 flex-row">
-                        <h6>
-                            Follow Us
-                        </h6>
-                        <i class="fa fa-instagram"></i>
-                        <i class="fa fa-facebook"></i>
-                        <i class="fa fa-twitter"></i>
+                <div class="col-lg-3 g-0">
+                    <div class="row d-flex flex-row">
+                        <div class="col-md-2 icons   d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="col-md-9 p-2 mt-3 d-flex flex-column ">
+                            <h6>
+                                Address:
+                            </h6>
+                            <p>Brisbane, Canberra,<br>
+                                Melbourne, Sydney</p>
+                        </div>
                     </div>
                 </div>
+                <div class="col-lg-3 g-0">
+                    <div class="row d-flex flex-row">
+                        <div class="col-md-2 icons  d-flex align-items-center ">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="col-md-9 p-2 mt-3 d-flex flex-column">
+                            <h6>
+                                Phone:
+                            </h6>
+                            <p>1300 221 480</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 g-0">
+                    <div class="row d-flex flex-row">
+                        <div class="col-md-2 icons  d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="col-md-9 p-2 mt-3 d-flex flex-column">
+                            <h6>
+                                Email
+                            </h6>
+                            <p>Info@Motoreasy.com.au</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </header>
+    </section>
+    <!-- ------------- Top Header end- -->
+    <!-- -------------  Header start- -->
     <header>
-        <div class="container-fluid header-sticky top-0">
-            <input type="checkbox" name="check" id="check">
-            <div class="logo-container">
-                <a href="/index.html">
-                    <h3 class="logo">Motor<span>Easy</span></h3>
-                </a>
-            </div>
-
+        <div class="main_header header-sticky top-0">
             <div class="nav-btn">
                 <div class="nav-links">
                     <ul>
                         <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Home </i></a>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
                             <a href="#">About Us </i></a>
                         </li>
                         <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">Look for Services <i class="fas fa-caret-down"></i></a>
+                            <a href="#"> Services <i class="fas fa-caret-down"></i></a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
@@ -79,18 +107,36 @@
                                 </ul>
                             </div>
                         </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#"> Pages <i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
 
-                        <li class="nav-link" style="--i: 1.35s">
-                            <a href="#">How We Work</a>
+                                    <li class="dropdown-link">
+                                        <a href="javascript:void(0)">Faq</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="javascript:void(0)">Testimonial</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="javascript:void(0)">Pricing</a>
+                                    </li>
+
+
+                                    <!-- <div class="arrow"></div> -->
+                                </ul>
+                            </div>
                         </li>
+
                         <li class="nav-link" style="--i: 1.35s">
                             <a href="#">Blog</a>
                         </li>
 
+
                         <li class="nav-link" style="--i: 1.35s">
                             <a href="/contact_us.html">Contact Us</a>
                         </li>
-                        <li class="nav-link ms-4" style="--i: 1.35s">
+                        <li class="nav-link ms-4 text-light" style="--i: 1.35s">
                             <i class="fa fa-search mt-3"></i>
                         </li>
                     </ul>
@@ -102,148 +148,296 @@
             </div>
         </div>
     </header>
-    <!-- Header End  -->
+    <!---------------- Header End  ------------------->
+    <!----------------- main ---------------------->
     <main>
-        <div class="container-fluid d-flex flex-column">
-            <!-- card -->
-            <div class="row m-4">
-                <h3 style="color: #1D1655;">
-                    <b> HOW CAN MOTORSERVE HELP YOU?</b>
-                </h3>
-                <div class="col-lg-4 col-md-6 d-flex flex-wrap">
-                    <div class="card">
-                        <img src="/assets/images/slider_1.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Book car servicing</h5>
-                            <p class="card-text">
-                                We recommend servicing your car every 6 months. You can choose between a logbook or
-                                service.</p>
+        <section>
+            <div class="container-fluid d-flex flex-column">
+                <!-- carousel -->
+                <div class="row">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
                         </div>
-                        <div class="button">
-                            <button><span>View More</span>&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="/assets/images/slider2.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h6>Motoreasy services</h6>
+                                    <p>Drive With Peace of Mind Service $ Warranty</p>
+                                    <div>
+                                        <button class="read_more"> Read More</button>
+                                        <button class="get_a_quote">Get a quote</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="/assets/images/sliders.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h6>Motoreasy services</h6>
+                                    <p>Everything Car Done <br> for you</p>
+                                    <div>
+                                        <button class="read_more"> Read More</button>
+                                        <button class="get_a_quote">Get a quote</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!----------------- Second section  ---------------->
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-main">
+                                        <img src="/assets/images/umbrala.png" alt="">
+                                        <div
+                                            class="card_main_position d-flex justify-content-center flex-column text-center">
+                                            <i class="fa-solid fa-car"></i>
+                                            <h3 class="card-title">Used Car Warranty</h3>
+                                            <p class="card-text">Hassle-free Cap Price Servicing, with all work
+                                                monitored by
+                                                your own Motor Easy.</p>
+                                            <a href="#">Read More >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-main">
+                                        <img src="/assets/images/umbrala.png" alt="">
+                                        <div
+                                            class="card_main_position d-flex justify-content-center flex-column text-center">
+                                            <i class="fa-solid fa-car"></i>
+                                            <h3 class="card-title">Inspection & Roadside</h3>
+                                            <p class="card-text">Get your car inspected a problem can creep up when you
+                                                least expect. Get a quote</p>
+                                            <a href="#">Read More >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-main">
+                                        <img src="/assets/images/umbrala.png" alt="">
+                                        <div
+                                            class="card_main_position d-flex justify-content-center flex-column text-center">
+                                            <i class="fa-solid fa-car"></i>
+                                            <h3 class="card-title">Used Car Warranty</h3>
+                                            <p class="card-text">Providing one of the best car protection warranty
+                                                products on
+                                                the market</p>
+                                            <a href="#">Read More >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- ------------------ Third Section ------------- -->
+                <div class="container">
+                    <div class="row" style=" margin-top: -200px; position: relative;">
+                        <div class="col-lg-6 third_section">
+                            <div>
+                                <h6>MOTOREASY CAR WARRANTY</h6>
+                                <h4>
+                                    Vehicle Inspection & <span>Vehicle <br> Protection Warranty Australia</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 MORE_ABOUT_US">
+                            <a href="#">MORE ABOUT US ></a>
+                            <p class="mt-4">We offer car protection warranty against expensive repair cost. Now you can
+                                stop
+                                worrying with our 1, 2 or 3 year used car warranty cover. <span> WARRANTY MADE EASY
+                                    AGAINST
+                                    EXPENSIVE BILLS</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-wrap">
-                    <div class="card">
-                        <img src="/assets/images/slider_2.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Insurance Service</h5>
-                            <p class="card-text">
-                                Motorserve proudly serves NRMA Insurance, RACV Insurance, Coles Insurance and CGU
-                                customers.
-                            </p>
+                <!-- ---------------- Fourth Section ---------------- -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6" id="image_section">
+                            <img id="about_image" src="/assets/images/car_service_3.png" alt="" class="toggle-image">
+                            <img id="mission_image" src="/assets/images/car_service_2.png" alt=""
+                                class="toggle-image hidden">
+                            <img id="vision_image" src="/assets/images/car_service_1.png" alt=""
+                                class="toggle-image hidden">
                         </div>
-                        <div class="button">
-                            <button><span>View More</span>&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+
+                        <div class="col-lg-6">
+                            <div class="fourth_portion d-flex flex-row justify-content-between ms-5">
+                                <button class="toggle-btn button-active" data-target="about_us_section"
+                                    data-img="about_image">
+                                    About Us
+                                    <i class="fa-solid fa-square-arrow-up-right"></i>
+                                </button>
+                                <button class="toggle-btn" data-target="mission_section" data-img="mission_image">
+                                    Mission
+                                    <i class="fa-solid fa-square-arrow-up-right"></i>
+                                </button>
+                                <button class="toggle-btn" data-target="vision_section" data-img="vision_image">
+                                    Vision
+                                    <i class="fa-solid fa-square-arrow-up-right"></i>
+                                </button>
+                            </div>
+
+                            <!-- ----------- about us ----------->
+                            <div class="section" id="about_us_section">
+                                <div class="row mx-auto">
+                                    <div class="col-md-11 mt-5 ms-5">
+                                        <p>Contact us for more details and learn about our comprehensive insurance
+                                            solutions, customer service, and commitment to excellence.</p>
+                                    </div>
+                                    <div class="col-md-6 mx-auto">
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Best Insurance Agency</p>
+                                        </div>
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Trusted & Insurance</p>
+                                        </div>
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Dedicated & Security</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mx-auto">
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Board Composition</p>
+                                        </div>
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Key Managerial Persons</p>
+                                        </div>
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Board Committees</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ---------------mission ----------- -->
+                            <div class="section" id="mission_section" style="display: none;">
+                                <div class="row mx-auto">
+                                    <div class="col-md-11 ms-5 mt-5">
+                                        <p>Our mission is to provide top-notch insurance services, ensuring peace of
+                                            mind and security for all our clients.</p>
+
+                                    </div>
+                                    <div class="col-md-6 mx-auto">
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Best Insurance Agency</p>
+                                        </div>
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Trusted & Insurance</p>
+                                        </div>
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Dedicated & Security</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mx-auto">
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Board Composition</p>
+                                        </div>
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Key Managerial Persons</p>
+                                        </div>
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Board Committees</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- -------------- Vision -------------- -->
+                            <div class="section" id="vision_section" style="display: none;">
+                                <div class="row mx-auto">
+                                    <div class="col-md-11 ms-5 mt-5">
+                                        <p>Our vision is to be the leading insurance provider, recognized for our
+                                            innovation, reliability, and customer-centric approach.</p>
+                                    </div>
+                                    <div class="col-md-6 mx-auto">
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Best Insurance Agency</p>
+                                        </div>
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Trusted & Insurance</p>
+                                        </div>
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Dedicated & Security</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mx-auto">
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Board Composition</p>
+                                        </div>
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Key Managerial Persons</p>
+                                        </div>
+                                        <div class="d-flex flex-row set_ids">
+                                            <input type="checkbox">
+                                            <p>Board Committees</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-wrap">
-                    <div class="card">
-                        <img src="/assets/images/slider_3.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Vehicle inspections</h5>
-                            <p class="card-text"> Motorserve proudly serves NRMA Insurance, RACV Insurance, Coles
-                                Insurance and CGU customers.</p>
-                        </div>
-                        <div class="button">
-                            <button><span>View More</span>&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                <!-- Fifth section -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 ">
+
                         </div>
                     </div>
                 </div>
+
             </div>
-
-            <!-- Second Card  -->
-
-            <div class="row m-4">
-                <div class=" services_customer">
-                    <h3 style="color: #1D1655;">
-                        <b>
-                            OUR TOP PRODUCTS</b>
-                    </h3>
-                    <p>
-                        Can't find a service that you're looking for?
-                    </p>
-                    <a href="#"><i class="fa-solid fa-arrow-right"></i> View more services</a>
-
-                </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-wrap">
-                    <div class="card">
-                        <img src="/assets/images/card_service_1.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Logbook service</h5>
-                            <p class="card-text">
-                                We recommend servicing your car every 6 months. You can choose between a logbook or
-                                service.</p>
-                        </div>
-                        <div class="button">
-                            <button><span>View More</span>&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-wrap">
-                    <div class="card">
-                        <img src="/assets/images/card_service_2.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Essential Service</h5>
-                            <p class="card-text">
-                                Motorserve proudly serves NRMA Insurance, RACV Insurance, Coles Insurance and CGU
-                                customers.
-                            </p>
-                        </div>
-                        <div class="button">
-                            <button><span>View More</span>&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 d-flex flex-wrap">
-                    <div class="card">
-                        <img src="/assets/images/card_service_3.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Safety Check</h5>
-                            <p class="card-text"> Motorserve proudly serves NRMA Insurance, RACV Insurance, Coles
-                                Insurance and CGU customers.</p>
-                        </div>
-                        <div class="button">
-                            <button><span>View More</span>&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row third_portion">
-                <span class="ms-5">
-                    <h4 class="ms-4">WHY MOTORSERVE CAR SERVICING?</h4>
-                </span>
-                <div class="col-lg-3 ">
-                    <img class="mt-3" src="/assets/images/icon_4.png" alt="">
-                    <h5 class="mt-3">Expert mechanics</h5>
-                    <p class="mt-3">From regular car servicing to major repairs, we have the right equipment and
-                        expertise.
-                    </p>
-                </div>
-                <div class="col-lg-3">
-                    <img class="mt-3" src="/assets/images/icon_3.png" alt="">
-                    <h5 class="mt-3">Convenience</h5>
-                    <p class="mt-3">A large network of car servicing locations across NSW and ACT means we’ve got a
-                        convenient location to suit you.
-                    </p>
-                </div>
-                <div class="col-lg-3">
-                    <img class="mt-3" src="/assets/images/icon_2.png" alt="">
-                    <h5 class="mt-3">Quality</h5>
-                    <p class="mt-3">Most parts and repairs come with a warranty of 12 months or 20,000km°.
-                    </p>
-                </div>
-                <div class="col-lg-3">
-                    <img class="mt-3" src="/assets/images/icon_1.png" alt="">
-                    <h5 class="mt-3">Value</h5>
-                    <p class="mt-3">We have great prices and get your approval on all work. Plus, NRMA Members save 10%^
-                    </p>
-                </div>
-            </div>
-        </div>
+        </section>
         <div class="container">
             <div class="row mt-5">
                 <div class="col-lg-8 fourth_portion">
@@ -372,6 +566,7 @@
         </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
+    <script src="/assets/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
